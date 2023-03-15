@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id = "myHeading1"></h1>
+    <h2 id = "myHeading2"></h2>
+    <p id = "myParagraph1"></p>
+    <p id = "myParagraph2"></p>
+    <script>
+        var number = 12; // number variable
+        var name = "Suju"; // string variable
+        var numbers = [1,2,3,4,5,6,7,8,9,10]; // array variable
+        const person = {firstName:"Rajan",lastName:"Dotel"} // object
+        const date = new Date().getDay; // date object
+        var validity = true; // boolean variable
+
+        document.getElementById("myHeading1").innerHTML = "Who is " +name +"? She, She is everything 😍🥰";
+        document.getElementById("myHeading1").style.color = 'red';
+        document.getElementById("myHeading2").innerHTML = numbers[1];
+        document.getElementById("myParagraph1").innerHTML = person.firstName + " " + person.lastName;
+        document.getElementById("myParagraph2").innerHTML = "The validity is " + validity;
+
+        </script>
+</body>
+</html>

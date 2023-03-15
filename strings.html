@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id = "myHeading"></h1>
+    <h1 id = "myHeading1"></h1>
+    <h1 id = "myHeading2"></h1>
+    <h1 id = "myHeading3"></h1>
+    <h1 id = "myHeading4"></h1>
+    <script>
+        var sentence = "Hello welcome to paradise. Seems you have died...."
+        var sentence2 = "Some special characters can be inserted \"like this quote\""
+        sentence = sentence.toLocaleLowerCase();
+        document.getElementById('myHeading1').innerHTML = sentence;
+        sentence = sentence.toUpperCase();
+        document.getElementById('myHeading2').innerHTML = sentence;
+        sentence = sentence.replace("SEEMS","MEMES(Replaced text)");
+        document.getElementById('myHeading3').innerHTML = sentence;
+        document.getElementById('myHeading').innerHTML = sentence2;
+    </script>
+</body>
+</html>

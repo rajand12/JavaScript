@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id = "heading"></h2>
+    <h1 id = "myHeading1"></h1>
+    <h1 id = "myHeading2"></h1>
+    <h1 id = "myHeading3"></h1>
+    <h1 id = "myHeading4"></h1>
+    <h1 id = "myHeading5"></h1>
+    <h1 id = "myHeading6"></h1>
+    <h1 id = "myHeading7"></h1>
+    <h1 id = "myHeading8"></h1>
+    <script>
+        var num1 = 23;
+        var num2 = 45;
+        document.getElementById('heading').innerHTML = "num1 = "+ num1 + " num2 = "+ num2;
+        var result = 23 + 45; // addition operator
+        document.getElementById('myHeading1').innerHTML ="Addition  " + result;
+        var result = 23 - 45; // subtraction operator
+        document.getElementById('myHeading2').innerHTML = "Subtraction  " + result;
+        var result = 23 * 45; // multiplication operator
+        document.getElementById('myHeading3').innerHTML = "Multiplication  " + result;
+        var result = 23 / 45; // division operator
+        document.getElementById('myHeading4').innerHTML = "Division  " + result;
+        var result = 23 % 45; // modulus operator
+        document.getElementById('myHeading5').innerHTML = "Modulus  " + result;
+        var result = 23**4; // exponentiation operator
+        document.getElementById('myHeading6').innerHTML = "exponentiation  " +result;
+        var result = num1++; // increment operator
+        document.getElementById('myHeading7').innerHTML = "increment   " + result;
+        var result = num2--; // decrement operator
+        document.getElementById('myHeading8').innerHTML = "decrement  " +result;
+
+    </script>
+</body>
+</html>

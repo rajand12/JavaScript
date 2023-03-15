@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id = "myHeading"></h1>
+    <h1 id = "myHeading1"></h1>
+    <h1 id = "myHeading2"></h1>
+    <h1 id = "myHeading3"></h1>
+    <h1 id = "myHeading4"></h1>
+    <script>
+        const person = {
+            firstName : "Rajan",
+            lastName : "Dotel",
+            age : 24,
+            contact : 9860939695,
+            fullName : function(){
+                return this.firstName + " " + this.lastName;
+            }
+        };
+        document.getElementById('myHeading').innerHTML = person.firstName;
+        document.getElementById('myHeading1').innerHTML = person.lastName;
+        document.getElementById('myHeading2').innerHTML = person.fullName();
+        document.getElementById('myHeading3').innerHTML = person.age;
+        document.getElementById('myHeading4').innerHTML = person.contact;
+    </script>
+    </body>
+</html>
